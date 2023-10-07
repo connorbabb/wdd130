@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+}
+#content {
+    background-color: pink;
+}
+p {
+    max-width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 10px;
+}
