@@ -40,7 +40,6 @@ img {
     display: block;
     margin: 30px auto;
     border: 6px solid lightblue;
-    padding: 40px, 100px, 40px, 3px;
     box-sizing: border-box;
 }
 p {
