@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Permanent+Marker&display=swap');
+body {
+    font-family: Open Sans, Permanent Marker, sans-serif;
+}
+
 #content {
     max-width: 1600px;
     text-align: center;
@@ -7,12 +12,15 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 10px;
+    margin: 50px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
 .button-box {
     text-align: center;
+    padding: 10px;
 }
 main section {
     text-align: center;
@@ -21,7 +29,14 @@ main section {
     height: 725px;
 }
 body {
-    background-color: #4287F5; 
+    background-color: #4287F5;
+    font-family: Open Sans, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #04509f;
@@ -34,6 +49,9 @@ nav a:hover {
     background-color: #FB8500;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px, 30px;
+    border-radius: 5px;
 }
 .book {
     background-color: #4287F5;
@@ -49,19 +67,27 @@ nav a:hover {
 .msg {
     background-color: #FB8500;
     color: white;
+    line-height: 2em;
 }
 footer {
     background-color: #04509f;
     color: white;
+    margin: 20px;
 }
 .home-title {
     color: white;
+    font-family: Permanent Marker, Open Sans, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .msg h2 {
     color: white;
+    font-family: Permanent Marker, Open Sans, sans-serif;
+    font-size: 2em;
 }
 .msg p {
     color: white;
+    font-size: 0.8em;
 }
 footer a {
     color: white;
@@ -72,12 +98,15 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding: 50px;
 }
 #hero-img {
-    width: 100%;
+    width: 95%;
+    padding: 30px;
 }
 .logo {
-    width: 80px;
+    width: 150px;
+    padding: 10px;
 }
 footer p {
     font-size: 1.2em;
@@ -85,3 +114,12 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+.rivers-card {
+    margin: 200px, 0;
+}
+.card-img {
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
+}
