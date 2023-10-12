@@ -50,7 +50,7 @@ nav a:hover {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    padding: 15px, 30px;
+    padding: 15px;
     border-radius: 5px;
 }
 .book {
@@ -115,7 +115,7 @@ footer p a:hover {
     text-decoration: underline;
 }    
 .rivers-card {
-    margin: 200px, 0;
+    margin: 200px;
 }
 .card-img {
     border: 10px solid black;
