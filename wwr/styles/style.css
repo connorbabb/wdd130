@@ -185,6 +185,80 @@ main section img {
     box-sizing: border-box;
 }
 
+/* Page 2 CSS */
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+/* .riverhero-msg {
+    margin-top: -30px;
+} */
+
+.salmonriver01-img {
+    width: 500px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: 3px solid black;
+}
+
+.salmonriver01-img:hover {
+    transform: scale(1.05);
+    opacity: .6;
+}
+
+.msg01 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: white;
+    margin-top: 30px;
+}
+
+.graycanyon02-img {
+    width: 500px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: 3px solid black;
+}
+
+.graycanyon02-img:hover {
+    transform: scale(1.05);
+    opacity: .6;
+}
+
+.msg02 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: white;
+    margin-top: 100px;
+}
+
+.grandcanyon03-img {
+    width: 500px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border: 3px solid black;
+}
+
+.grandcanyon03-img:hover {
+    transform: scale(1.05);
+    opacity: .6;
+}
+
+.msg03 {
+    color: white;
+    margin-top: 100px;
+}
+
+.h1 {
+    color: lightgrey;
+
+}
+
+/* Media Query */
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
