@@ -193,10 +193,6 @@ main section img {
     grid-template-rows: 1fr 1fr 1fr;
 }
 
-/* .riverhero-msg {
-    margin-top: -30px;
-} */
-
 .salmonriver01-img {
     width: 500px;
     grid-column: 1/2;
@@ -214,6 +210,7 @@ main section img {
     grid-row: 1/2;
     color: white;
     margin-top: 30px;
+    padding: 20px;
 }
 
 .graycanyon02-img {
@@ -232,7 +229,8 @@ main section img {
     grid-column: 1/2;
     grid-row: 2/3;
     color: white;
-    margin-top: 100px;
+    margin-top: 30px;
+    padding: 30px;
 }
 
 .grandcanyon03-img {
@@ -249,7 +247,8 @@ main section img {
 
 .msg03 {
     color: white;
-    margin-top: 100px;
+    margin-top: 40px;
+    padding: 20px;
 }
 
 .h1 {
