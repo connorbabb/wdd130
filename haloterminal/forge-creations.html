@@ -20,20 +20,41 @@
             </nav>
         </header>  
         <main class="forge-grid">
-            <div id="campaign-mode">
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'London')">Campaign</button>
+                <button class="tablinks" onclick="openCity(event, 'Paris')">Mini-Games</button>
+                <button class="tablinks" onclick="openCity(event, 'Tokyo')">Classic Maps</button>
+              </div>
+              
+            <div id="London" class="tabcontent">
                 <h1>Campaign</h1>
-                <img id="campaign-pic" src="images/rsz_inclemency.jpg" alt="Inclemency Map in Forge">
                 <p>Explore Campaign style missions in Halo Infinite's Forge using the new AI toolkit.</p>
+                <img id="campaign-pic" src="images/rsz_inclemency.jpg" alt="Inclemency Map in Forge">
+                <div id="para01">
+                    <p>hello c</p>
+                </div>   
             </div>
-            <div id="Minigame-mode">
-                <h1>MiniGames</h1>
-                <img id="Minigame-pic" src="images/Forge_Falcons.jpg" alt="Forge Falcons Battle Royale">
+
+            <div id="Paris" class="tabcontent">
+                <h1>Mini-Games</h1>
                 <p>Play custom maps and modes made by the community that take the forge tools to another level and completely change the game.</p>
+                <img id="Minigame-pic" src="images/Forge_Falcons.jpg" alt="Forge Falcons Battle Royale">
+                <div id="para01">
+                    <p>hello c</p>
+                </div>
             </div>
-            <div id="Classic-mode">
+            
+            <div id="Tokyo" class="tabcontent">
                 <h1>Classic Maps</h1>
-                <img id="Classic-pic" src="images/rsz_1rsz_1thepit.png" alt="The Pit remade in Forge">
                 <p>Get some good nostalgia and hop into classic maps dating all the way back to 2001 completely remade in Halo Infinite's forge mode.</p>
+                <img id="Classic-pic" src="images/rsz_1rsz_1thepit.png" alt="The Pit remade in Forge">
+                <div id="para01">
+                    <p>hello c</p>
+                </div>
+            </div>
+
+            <div id="Classic-mode">
+                <img id="Classic-pic" src="images/rsz_1rsz_1thepit.png" alt="The Pit remade in Forge">
             </div>
         </main>
         <footer>
@@ -53,5 +74,6 @@
             </div>
         </footer>
     </div>
+    <script src="forge.js"></script>
 </body>
 </html>
